@@ -1,5 +1,5 @@
 # privesc-sudo-l-apk
-`sudo -l` Exploit Privilege Escalation Alpine (root) NOPASSWD: /sbin/apk
+`sudo -l` Exploit Privilege Escalation Alpine `(root) NOPASSWD: /sbin/apk`
 
 ## Build APK
 
